@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/ic_home"
+        android:title="@string/itemInicio" />
+
+    <item android:title="@string/itemContacto">
+        <menu>
+            <item
+                android:id="@+id/soporte"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/itemSoporte" />
+        </menu>
+    </item>
+
+    <item android:title="@string/itemLegal">
+        <menu>
+            <item
+                android:id="@+id/propiedadIntelectual"
+                android:icon="@drawable/ic_copyright"
+                android:title="@string/itemCopyright" />
+            <item
+                android:id="@+id/politicaPrivacidad"
+                android:icon="@drawable/ic_privacy"
+                android:title="@string/itemPolitica" />
+        </menu>
+    </item>
+
+</menu>

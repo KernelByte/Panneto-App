@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D4037</color>
+    <color name="colorPrimaryDark">#3E2723</color>
+    <color name="colorAccent">#EF6C00</color>
+    <!-- Colores para Tab Layout -->
+    <color name="ColorInicio">#5d4037</color>
+    <color name="ColorProducto">#c29682</color>
+    <color name="ColorReservas">#73544c</color>
+    <color name="ColorReportes">#ff9350</color>
+    <color name="ColorError">#8a2404</color>
+
+    <color name="textoProductos">#c29682</color>
+    <color name="toolbarBackButton">#ffffff</color>
+</resources>

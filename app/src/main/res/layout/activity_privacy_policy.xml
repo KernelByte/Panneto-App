@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/privacyPolicyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5d4037"
+        android:theme="@style/ToolbarTheme"
+        app:titleTextColor="#FFFFFF" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitlePanneto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/titlePannetoPoliticaPrivacidad"
+                android:textAlignment="center"
+                android:layout_marginBottom="15sp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTitlePoliticaPrivacidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/titlePoliticaPrivacidad"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPoliticaPrivacidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/txtPoliticaPrivacidad" />
+
+            <TextView
+                android:id="@+id/tvTitleSeccion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/titleSeccion1"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeccion1Parrafo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/txtSeccion1Parrafo1" />
+
+            <TextView
+                android:id="@+id/tvSeccion1Parrafo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="@string/txtSeccion1Parrafo2" />
+
+            <TextView
+                android:id="@+id/tvTitleSeccion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/titleSeccion2"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeccion2Parrafo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/txtSeccion2Parrafo1" />
+
+            <TextView
+                android:id="@+id/tvSeccion2Parrafo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="@string/txtSeccion2Parrafo2" />
+
+            <TextView
+                android:id="@+id/titleSeccion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/titleSeccion3"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeccion3Parrafo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/txtSeccion3Parrafo1" />
+
+            <TextView
+                android:id="@+id/tvSeccion3Parrafo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="@string/txtSeccion3Parrafo2" />
+
+            <TextView
+                android:id="@+id/titleSeccion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/titleSeccion4"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeccion4Parrafo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/txtSeccion4Parrafo1" />
+
+            <TextView
+                android:id="@+id/titleSeccion5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/titleSeccion5"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeccion5Parrafo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/txtSeccion5Parrafo1" />
+
+            <TextView
+                android:id="@+id/tvSeccion5Parrafo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="@string/txtSeccion5Parrafo2" />
+
+            <TextView
+                android:id="@+id/tvSeccion5Parrafo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="30sp"
+                android:paddingBottom="30dp"
+                android:text="@string/txtSeccion5Parrafo3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">Panneto</string>
+
+    <!-- ACTIVITIES -->
+    <!-- LoginActivity -->
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="credencialesInvalidas">Usuario o contraseña inválidos</string>
+    <string name="errorLogin">Ha ocurrido un error iniciando sesión</string>
+    <string name="correoObligatorio">Debe ingresar el correo</string>
+    <string name="contraObligatoria">Debe ingresar la contraseña</string>
+
+    <!-- MenuActivity -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hola">Hola</string>
+    <string name="atrasParaSalir">Por favor, presione atrás nuevamente para salir</string>
+    <string name="tvNotificaciones">Notificaciones</string>
+    <string name="tv_Reservas">Reservas</string>
+    <string name="tvInicio">Panneto</string>
+
+    <!-- SignupActivity -->
+    <string name="emailObligatorio">Debe ingresar un correo</string>
+    <string name="emailInvalido">Formato de correo inválido</string>
+    <string name="usuarioObligatorio">Debe ingresar un nombre de usuario</string>
+    <string name="contrasenaObligatoria">Debe ingresar una contraseña</string>
+    <string name="contrasenaConfirmar">Debe confirmar la contraseña</string>
+    <string name="contrasenasDiferentes">Las contraseñas no coinciden</string>
+    <string name="registrandoUsuario">Registrando el usuario...</string>
+    <string name="errorRegistroUsuario">Ha ocurrido un problema registrando el usuario</string>
+
+    <!-- ADAPTERS -->
+    <!-- NotificationsAdapter -->
+    <string name="generandoReserva">Generando la reserva...</string>
+    <string name="productoReservado">El producto ha sido reservado</string>
+    <string name="errorReserva">Ha ocurrido un problema reservando el producto</string>
+    <string name="cantidadObligatoria">Debe ingresar una cantidad</string>
+    <string name="cantidadMayorCero">Debe ingresar una cantidad mayor a cero</string>
+
+    <!-- ReservationsAdapter -->
+    <string name="tvCodigoReserva">Código de reserva:</string>
+    <string name="tvCantidadReserva">Cantidad reservada:</string>
+
+    <!-- FRAGMENTS -->
+    <!-- NotificationsFragment -->
+    <string name="buscarProducto">Buscar producto</string>
+
+    <!-- MapsFragment -->
+    <string name="mapDireccion">Dirección:</string>
+    <string name="mapTelefono">Teléfono:</string>
+    <string name="mapFavorito">Añadido a favoritos</string>
+    <string name="mapNoFavorito">Eliminado de favoritos</string>
+
+    <!-- UTILS -->
+    <!-- ErrorManager -->
+    <string name="titleErrorConexion">Lo sentimos</string>
+    <string name="txtErrorConexion">No se pudo establecer conexión con el servidor.</string>
+    <string name="titleError">Ha ocurrido un error</string>
+    <string name="txtError">Por favor, intente de nuevo más tarde.</string>
+    <string name="tokenVencido">Por favor, inicie sesión nuevamente.</string>
+    <string name="errorGetToken">Ha ocurrido un error. Por favor, inicie sesión nuevamente.</string>
+    <string name="errorCredencialesToken">Sus credenciales cambiaron. Por favor, inicie sesión nuevamente.</string>
+    <string name="sinCredenciales">Ha ocurrido un error. Por favor, inicie sesión nuevamente.</string>
+
+    <!-- Notificaciones -->
+    <string name="topicNotificaciones">global_usuario_test</string>
+    <string name="channel_name">pannetoApp</string>
+    <string name="channel_description">Canal de notificaciones para OREO</string>
+
+    <!-- API PROD-->
+    <string name="urlApiRoute">https://panneto.co/</string>
+    <string name="urlApi">api/</string>
+    <string name="urlImg">uploaded/products/</string>
+    <string name="urlNoImg">img/sin-imagen.png</string>
+    <string name="topicNotifications">global_usuario</string>
+
+    <!-- API TEST -->
+    <!--<string name="urlApiRoute">http://dev.panneto.co/</string>
+    <string name="urlApi">api/</string>
+    <string name="urlImg">uploaded/products/</string>
+    <string name="urlNoImg">img/sin-imagen.png</string>
+    <string name="topicNotifications">dev_global_usuario</string>-->
+
+    <!-- API LOCAL -->
+    <!--<string name="urlApiRoute">http://192.168.1.107/</string>
+    <string name="urlApi">panneto/public/api/</string>
+    <string name="urlImg">uploaded/products/</string>
+    <string name="urlNoImg">img/sin-imagen.png</string>
+    <string name="topicNotifications">global_usuario</string>-->
+
+    <!-- LAYOUT -->
+    <!-- activity_copyright -->
+    <string name="titleCopyright">Derecho de propiedad intelectual</string>
+    <string name="txtCopyright">PANNETO es una aplicación protegida
+        por la DIRECCION NACIONAL DE DERECHO DE AUTOR (DNDA) con el
+        número de certificado 13-74-187 del 19 de junio del 2019”.</string>
+
+    <!-- activity_login -->
+    <string name="imLogo">LogoApp</string>
+    <string name="txtUsuario">Correo electrónico</string>
+    <string name="txtContrasña">Contraseña</string>
+    <string name="txtOjo">Ojo</string>
+    <string name="txtIniciaSesion">Iniciar sesión</string>
+    <string name="txtRegistro">¿Aún no estás registrado?</string>
+    <string name="txtRegistrate">Regístrate aquí</string>
+
+    <!-- activity_signup -->
+    <string name="tvRegistroUsuarios">Crear cuenta</string>
+    <string name="txtIngreseCorreo">Correo electrónico</string>
+    <string name="txtNombreUsuario">Nombre</string>
+    <string name="txtIngreseContraseña">Contraseña</string>
+    <string name="txtIngreseContraseña2">Confirmar contraseña</string>
+    <string name="btnRegistrarUsuario">Registrar</string>
+
+    <!-- list_notifications -->
+    <string name="tvTituloProducto">Nombre</string>
+    <string name="tvNombreProducto">Nombre producto</string>
+    <string name="tvNombreEmpresa">Nombre empresa</string>
+    <string name="tvDescripcionProducto">Descripción</string>
+    <string name="txtSigno">$</string>
+    <string name="txtPrecioProducto">Precio</string>
+    <string name="tvFechaPublicacionProducto">Fecha publicación</string>
+    <string name="btnReservarCard">RESERVAR</string>
+
+    <!-- fragment_notifications -->
+    <string name="tvNoNotifications">No hay notificaciones en este momento</string>
+
+    <!-- fragment_reservations -->
+    <string name="tvNoReservas">No tienes reservas en este momento</string>
+
+    <!-- nav_header_menu -->
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <!-- menu_close -->
+    <string name="txtCerrarSesion">Cerrar sesión</string>
+
+    <!-- activity_menu_drawer -->
+    <string name="itemInicio">Inicio</string>
+    <string name="itemContacto">Contacto</string>
+    <string name="itemSoporte">Soporte</string>
+    <string name="itemLegal">Legal</string>
+    <string name="itemCopyright">Propiedad intelectual</string>
+    <string name="itemPolitica">Política de privacidad</string>
+
+    <!-- dialog_reservation_notification -->
+    <string name="tvTituloReserva">Reservar productos</string>
+    <string name="tvMensajeReserva">Cantidad a reservar:</string>
+    <string name="btnCancelar">CANCELAR</string>
+    <string name="btnReservar">RESERVAR</string>
+
+    <!-- dialog_soporte -->
+    <string name="txtSoporte">Si tienes dudas o algún inconveniente,
+        escríbenos a <b>soporte@panneto.co</b></string>
+    <string name="btnOk">OK</string>
+    <string name="iconoSoporte">Soporte</string>
+
+    <!-- activity_privacy_policy -->
+    <string name="titlePannetoPoliticaPrivacidad">PANNETO, PANNETO BUSINESS Y PANNETO.CO</string>
+    <string name="titlePoliticaPrivacidad">POLÍTICA DE PRIVACIDAD</string>
+    <string name="txtPoliticaPrivacidad">El presente documento explica la Política de Privacidad y los términos en que las
+        aplicaciones Panneto y Panneto Business y el sitio web Panneto.co usa y protege
+        la información que es proporcionada por sus usuarios al momento de realizar uso
+        de sus funciones. Estas aplicaciones están comprometidas con la seguridad de los
+        datos de sus usuarios. Cuando le pedimos llenar los campos de información
+        personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo
+        se empleará de acuerdo con los términos de este documento. Sin embargo, esta
+        Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le
+        recomendamos y enfatizamos revisar continuamente esta página para asegurarse
+        que está de acuerdo con dichos cambios.</string>
+
+    <string name="titleSeccion1">Información que es recogida</string>
+    <string name="txtSeccion1Parrafo1">Las aplicaciones Panneto y Panneto Business y el sitio web Panneto.co podrá
+        recoger información personal, por ejemplo: su dirección de correo electrónico, NIT
+        de la empresa, su razón social, representante legal, dirección, teléfono, entre otros
+        datos de contacto. Así mismo cuando sea necesario podrá ser requerida
+        información específica para procesar algún pedido o realizar una entrega o
+        facturación.</string>
+    <string name="txtSeccion1Parrafo2">Desde la aplicación Panneto Business se solicitará acceso a la cámara de su
+        dispositivo móvil e imágenes alusivas a sus productos para registrarlos en nuestra
+        base de datos. Estos datos permitirán que su catalogo de productos se vea atractivo
+        ante los usuarios de Panneto, y a los cuales se les dará el mismo tratamiento de
+        privacidad que a los datos recogidos para identificarse dentro de la aplicación. Si
+        usted no autoriza el uso de la cámara o imágenes para la aplicación, debe tener en
+        cuenta que el funcionamiento de la misma podría verse afectado y no comportarse
+        de forma correcta o no podrá hacer uso de algunas funciones.</string>
+
+    <string name="titleSeccion2">Uso de la información recogida</string>
+    <string name="txtSeccion2Parrafo1">Las aplicaciones Panneto y Panneto Business y el sitio web Panneto.co emplean la
+        información con el fin de proporcionar el mejor servicio posible, particularmente para
+        mantener un registro de usuarios y mejorar nuestros productos y servicios. Es
+        posible que sean enviados correos electrónicos periódicamente a través de nuestro
+        sitio con ofertas especiales, nuevos productos y otra información publicitaria que
+        consideremos relevante para usted o que pueda brindarle algún beneficio, estos
+        correos electrónicos serán enviados a la dirección que usted proporcione y podrán
+        ser cancelados en cualquier momento.</string>
+    <string name="txtSeccion2Parrafo2">Las aplicaciones Panneto y Panneto Business y el sitio web Panneto.co están
+        altamente comprometidos para mantener su información segura. Usamos los
+        sistemas más avanzados y los actualizamos constantemente para asegurarnos que
+        no exista ningún acceso no autorizado.</string>
+
+    <string name="titleSeccion3">Cookies</string>
+    <string name="txtSeccion3Parrafo1">Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso
+        para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve
+        entonces para tener información respecto al tráfico web, y también facilita las futuras
+        visitas a una web recurrente. Otra función que tienen las cookies es que con ellas
+        las webs pueden reconocerte individualmente y por tanto brindarte el mejor servicio
+        personalizado de su web.</string>
+    <string name="txtSeccion3Parrafo2">El sitio web Panneto.co emplea las cookies para poder identificar las páginas que
+        son visitadas y su frecuencia. Esta información es empleada únicamente para
+        análisis estadístico y después la información se elimina de forma permanente. Usted
+        puede eliminar las cookies en cualquier momento desde su ordenador. Sin
+        embargo, las cookies ayudan a proporcionar un mejor servicio de los sitios web,
+        estás no dan acceso a información de su ordenador ni de usted, a menos de que
+        usted así lo quiera y la proporcione directamente. Usted puede aceptar o negar el
+        uso de cookies, sin embargo, la mayoría de navegadores aceptan cookies
+        automáticamente pues sirve para tener un mejor servicio web. También usted puede
+        cambiar la configuración de su ordenador para declinar las cookies. Si se declinan
+        es posible que no pueda utilizar algunos de nuestros servicios.</string>
+
+    <string name="titleSeccion4">Enlaces a Terceros</string>
+    <string name="txtSeccion4Parrafo1">El sitio web Panneto.co o las aplicaciones Panneto y Panneto Business pudiera
+        contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted
+        de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre
+        al sitio al que es redirigido y por lo tanto no somos responsables de los términos o
+        privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos
+        sitios están sujetos a sus propias políticas de privacidad, por lo cual es
+        recomendable que los consulte para confirmar que usted está de acuerdo con estas.</string>
+
+    <string name="titleSeccion5">Control de su información personal</string>
+    <string name="txtSeccion5Parrafo1">En cualquier momento usted puede restringir la recopilación o el uso de la
+        información personal que es proporcionada a en las aplicaciones Panneto y Panneto
+        Business y el sitio web Panneto.co.</string>
+    <string name="txtSeccion5Parrafo2">Las aplicaciones Panneto y Panneto Business y el sitio web Panneto.co no venderá,
+        cederá ni distribuirá la información personal que es recopilada sin su
+        consentimiento, salvo que sea requerido por un juez con un orden judicial.</string>
+    <string name="txtSeccion5Parrafo3">Las aplicaciones Panneto y Panneto Business y el sitio web Panneto.co se reservan
+        el derecho de cambiar los términos de la presente Política de Privacidad en
+        cualquier momento.</string>
+
+</resources>
